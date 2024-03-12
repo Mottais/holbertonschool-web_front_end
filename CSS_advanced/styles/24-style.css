@@ -43,6 +43,7 @@
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
+	--section-tagline-margin: 0;
 
 	/* Nav */
 	--nav-item-font-family: var(--font-family-title);
@@ -133,6 +134,7 @@ a:active {
 	font-family: var(--font-family-title);
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
+	margin: var(--section-tagline-margin);
 }
 
 .container {
